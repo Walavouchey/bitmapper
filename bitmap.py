@@ -2,7 +2,7 @@ bitmap = b''
 
 # file header (everything is little endian)
 bitmap += b'\x42\x4D'         # file type 'BM'
-bitmap += b'\x03\x7C\x08\x00' # file size (556,035 bytes, 0x87C03)
+bitmap += b'\x36\x03\x00\x00' # file size (822 bytes, 0x336)
 bitmap += b'\x00\x00'         # reserved
 bitmap += b'\x00\x00'         # reserved
 bitmap += b'\x36\x00\x00\x00' # offset to image data (0x36)
